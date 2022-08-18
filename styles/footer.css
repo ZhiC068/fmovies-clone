@@ -1,0 +1,87 @@
+footer {
+  display: flex;
+  background-color: black;
+}
+
+footer .footer-left-sections {
+  padding: 20px 0 20px 20px;
+  width: 680px;
+}
+
+footer .footer-left-sections img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+footer .footer-left-sections p {
+  font-size: 12px;
+  color: lightgray;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+footer .footer-left-sections div {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+footer .footer-left-sections div:hover i,
+footer .footer-left-sections div:hover a
+{
+  color: cornflowerblue;
+}
+
+footer .footer-left-sections i {
+  font-size: 10px;
+}
+
+footer .footer-left-sections div a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 10px;
+}
+
+footer .footer-left-sections p:last-child {
+  font-size: 10px;
+}
+
+footer .footer-right-sections {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px 20px 20px 0;
+  font-size: 12px;
+}
+
+footer .footer-right-sections p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+footer .footer-right-sections a {
+  padding: 5px 5px 5px 0;
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+
+footer .footer-right-sections a:hover {
+  color: white;
+}
+
+footer .footer-right-sections nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-right-sections nav div:first-child,
+footer .footer-right-sections nav div:nth-child(2),
+footer .footer-right-sections nav div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-right-sections nav div:last-child {
+  margin-right: 100px;
+}
+
